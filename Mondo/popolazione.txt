@@ -1,0 +1,9 @@
+#id nazione  popolazione
+Italy    	60218431
+Germany    	83517045
+UnitedKingdom 	67530172
+Spain    	46736776
+France    	68303234
+India    	1366417754
+US    		329064917
+Austria		8935112
