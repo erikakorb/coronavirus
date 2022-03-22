@@ -493,7 +493,7 @@ ax.set_title('Saturazione posti letto in terapia intensiva e ricoveri il giorno 
 ax.set_xlabel('Percentuale occupazione posti letto in area non critica')
 ymax_colori=15
 ax.set_ylim(0,ymax_colori)
-xmax=35.
+xmax=40.
 ax.set_xlim(0,xmax)
 ax.axvline(x=15, color='k', linestyle='dotted') 
 ax.axvline(x=30, color='k', linestyle='dotted')
