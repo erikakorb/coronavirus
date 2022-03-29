@@ -24,7 +24,7 @@ datiPLricov, datiPLti, datiPLtiDL=np.genfromtxt('posti_letto.txt',usecols=(1,2,3
 #https://twitter.com/vi__enne/status/1428732053512671233 per le stime dei PL in TI secondo DL 105/2021
 # pagina aggiornata https://docs.google.com/spreadsheets/d/e/2PACX-1vSwS7SWNpcv8qy1wZHK7DvWWX7RgDEYzYjzAm_TdExqax3waIuN2Bd0rj2OAh9YRJSDX-QbnqEkfdqJ/pubhtml#
 report=str('10/09/2021')   # data stime TI sulla base del report ISS disponibile (data ultima consultazione)
-agenas=str('27/01/2022')   # ultimo aggiornamento manuale agenas posti area non critica
+agenas=str('29/03/2022')   # ultimo aggiornamento manuale agenas posti area non critica
 
 def selezione(codice_regione): #NB:ID_regione è una stringa
 
@@ -491,7 +491,7 @@ ax.set_title('Saturazione posti letto in terapia intensiva e ricoveri il giorno 
              '\n Fonte: https://docs.google.com/spreadsheets/d/e/2PACX-1vSwS7SWNpcv8qy1wZHK7DvWWX7RgDEYzYjzAm_TdExqax3waIuN2Bd0rj2OAh9YRJSDX-QbnqEkfdqJ/pubhtml#' +
              '\n \n NB: Posti letto disponibili in area non critica secondo Agenas https://www.agenas.gov.it/covid19/web/index.php?r=site%2Ftab2 aggiornati al ' + str(agenas))
 ax.set_xlabel('Percentuale occupazione posti letto in area non critica')
-ymax_colori=15
+ymax_colori=20
 ax.set_ylim(0,ymax_colori)
 xmax=40.
 ax.set_xlim(0,xmax)
